@@ -259,6 +259,6 @@ chipo['item_price'].head()
 # 4    $16.98
 # Name: item_price, dtype: object
 
-# column 단위 데이터에 apply 함수로 전처리를 적용합니다.
+# column 단위 데이터에 apply 함수로 전처리를 적용합니다.( $를 없애기 위해 appy(lambda.. 함수 이용하여, 뒤의 함수만 적용.))
 chipo['item_price'] = chipo['item_price'].apply(lambda x: float(x[1:]))
 chipo.describe()
