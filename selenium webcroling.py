@@ -14,4 +14,4 @@
 # google chrome drive 다운 후 selenium 폴더에 저장
 # google.py 생성 후 저장.
 
-git testing 1 2 3
+# git testing 1 2 3
