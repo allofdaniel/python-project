@@ -225,4 +225,40 @@ len(t1)
 a = {1: 'a'}
 a[2] = 'b'
 #{1: 'a', 2: 'b'}
-# 90p
+a['name'] = 'pey'
+#{1: 'a', 2: 'b', 'name': 'pey'}
+a[3] = [1, 2, 3]
+#{1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+del a[1]
+#{2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+a['name']
+# 'pey'
+# 동일 키에 2개 값 중복 시 앞의쌍 무시됨.
+a = {1: 'a', 1: 'b'}
+# {1:'b'}
+# key 에는 list 쓸 수 없지만, tuple은 쓸 수 있음.
+a = {[1, 2]: 'hi'}
+# 오류
+a = {(1, 2): 'hi'}
+#{(1, 2): 'hi'}
+a.keys()
+#dict_keys([(1, 2)])
+for k in a.keys():
+    print(k)
+# (1,2)
+a.values()
+# dict_values(['hi'])
+a.items()
+#dict_items([((1, 2), 'hi')])
+a.clear()
+# {}
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+a.get('name')
+# 'pey
+a.get('phone')
+# '0119993323'
+'name' in a
+# True
+
+# 집합자료형
+# 97p
