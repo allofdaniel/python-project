@@ -221,44 +221,57 @@ t2*3
 # (3,4,3,4,3,4)
 len(t1)
 # 4
+
 ## dictionary 자료형##
 a = {1: 'a'}
-a[2] = 'b'
-#{1: 'a', 2: 'b'}
-a['name'] = 'pey'
-#{1: 'a', 2: 'b', 'name': 'pey'}
-a[3] = [1, 2, 3]
-#{1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
-del a[1]
-#{2: 'b', 'name': 'pey', 3: [1, 2, 3]}
-a['name']
-# 'pey'
+a[2] = 'b'  # {1: 'a', 2: 'b'}
+a['name'] = 'pey'  # {1: 'a', 2: 'b', 'name': 'pey'}
+a[3] = [1, 2, 3]  # {1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+del a[1]  # {2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+a['name']  # 'pey'
 # 동일 키에 2개 값 중복 시 앞의쌍 무시됨.
-a = {1: 'a', 1: 'b'}
-# {1:'b'}
+
+a = {1: 'a', 1: 'b'}  # {1:'b'}
 # key 에는 list 쓸 수 없지만, tuple은 쓸 수 있음.
-a = {[1, 2]: 'hi'}
-# 오류
-a = {(1, 2): 'hi'}
-#{(1, 2): 'hi'}
-a.keys()
-#dict_keys([(1, 2)])
+
+a = {[1, 2]: 'hi'}  # 오류
+a = {(1, 2): 'hi'}  # {(1, 2): 'hi'}
+a.keys()  # dict_keys([(1, 2)])
+
 for k in a.keys():
-    print(k)
-# (1,2)
-a.values()
-# dict_values(['hi'])
-a.items()
-#dict_items([((1, 2), 'hi')])
-a.clear()
-# {}
+    print(k)  # (1,2)
+a.values()  # dict_values(['hi'])
+a.items()  # dict_items([((1, 2), 'hi')])
+a.clear()  # {}
+
 a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
-a.get('name')
-# 'pey
-a.get('phone')
-# '0119993323'
-'name' in a
-# True
+a.get('name')  # 'pey
+a.get('phone')  # '0119993323'
+'name' in a  # True
 
 # 집합자료형
-# 97p
+s1 = set([1, 2, 3])  # {1,2,3}
+s2 = set("Hello")  # {'H', 'e', 'o', 'l'}
+
+s1 = set([1, 2, 3])
+l1 = list(s1)
+l1  # [1,2,3]
+l1[0]  # 1
+
+t1 = tuple(s1)  # 튜플로 변환
+t1  # (1,2,3)
+t1[0]  # 1
+
+s1 = set([1, 2, 3, 4, 5, 6])
+s2 = set([4, 5, 6, 7, 8, 9])
+
+s1 & s2  # {4,5,6} 교집합
+s1.intersection(s2)  # {4,5,6} 교집합
+s1 | s2  # {1, 2, 3, 4, 5, 6, 7, 8, 9} 합집합
+s1.union(s2)  # {1, 2, 3, 4, 5, 6, 7, 8, 9} 합집합
+s1-s2  # {1,2,3} 차집합
+s1.difference(s2)  # {1,2,3} 차집합
+s1.add(7)  # {1, 2, 3, 4, 5, 6, 7}
+s1.remove(2)  # {1, 3, 4, 5, 6, 7} remove는 한개밖에 안됨
+
+# bool 자료형 102p
