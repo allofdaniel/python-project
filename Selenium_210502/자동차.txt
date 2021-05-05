@@ -1,0 +1,10 @@
+zone0 to zone0 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 총 5분, 거리 1.2km, 통행료 무료, 주유비 176원, 택시비 3,800원
+zone0 to zone2 총 4분, 거리 1.2km, 통행료 무료, 주유비 180원, 택시비 3,800원
+zone1 to zone0 총 4분, 거리 1.4km, 통행료 무료, 주유비 201원, 택시비 3,800원
+zone1 to zone1 동일경로
+zone1 to zone2 총 7분, 거리 1.8km, 통행료 무료, 주유비 265원, 택시비 3,800원
+zone2 to zone0 총 11분, 거리 3.6km, 통행료 무료, 주유비 519원, 택시비 4,900원
+zone2 to zone1 총 8분, 거리 2.3km, 통행료 무료, 주유비 334원, 택시비 4,300원
+zone2 to zone2 동일경로

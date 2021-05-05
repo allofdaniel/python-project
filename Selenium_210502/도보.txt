@@ -1,0 +1,10 @@
+zone0 to zone0 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 총 14분, 거리 941m, 경로 횡단보도 1회
+zone0 to zone2 총 17분, 거리 1.2km, 경로 횡단보도 1회
+zone1 to zone0 총 14분, 거리 941m, 경로 횡단보도 1회
+zone1 to zone1 동일경로
+zone1 to zone2 총 25분, 거리 1.7km, 경로 횡단보도 2회
+zone2 to zone0 총 17분, 거리 1.2km, 경로 횡단보도 1회
+zone2 to zone1 총 25분, 거리 1.7km, 경로 횡단보도 2회
+zone2 to zone2 동일경로

@@ -1,0 +1,37 @@
+zone0 to zone0 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 결과없음
+zone0 to zone2 결과없음
+zone1 to zone0 결과없음
+zone1 to zone1 동일경로
+zone1 to zone2 결과없음
+zone2 to zone0 결과없음
+zone2 to zone1 결과없음
+zone2 to zone2 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 결과없음
+zone0 to zone2 결과없음
+zone1 to zone0 결과없음
+zone1 to zone1 동일경로
+zone1 to zone2 결과없음
+zone2 to zone0 결과없음
+zone2 to zone1 결과없음
+zone2 to zone2 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 결과없음
+zone0 to zone2 결과없음
+zone1 to zone0 결과없음
+zone1 to zone1 동일경로
+zone1 to zone2 결과없음
+zone2 to zone0 결과없음
+zone2 to zone1 결과없음
+zone2 to zone2 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 총 3분, 거리 780m, 경로 북촌로11길 426m
+zone0 to zone2 총 5분, 거리 1.2km, 경로 삼청로7길 250m 청와대로 494m 효자로 287m
+zone1 to zone0 총 4분, 거리 939m, 경로 북촌로5가길 241m 삼청로 408m
+zone1 to zone1 동일경로
+zone1 to zone2 총 7분, 거리 1.7km, 경로 북촌로5길 337m 청와대로 784m 효자로 287m
+zone2 to zone0 총 5분, 거리 1.3km, 경로 자하문로26길 216m 청와대로 494m 삼청로7길 250m
+zone2 to zone1 총 7분, 거리 1.8km, 경로 자하문로26길 216m 청와대로 784m 북촌로5길 356m
+zone2 to zone2 동일경로

@@ -1,0 +1,83 @@
+zone0 to zone0 동일경로
+zone0 to zone1 총12분, 도보4분, 비용1,200원
+zone0 to zone2 총16분, 도보7분, 비용1,200원
+zone1 to zone0 총11분, 도보3분, 비용1,200원
+zone1 to zone1 동일경로
+zone1 to zone2 총22분, 도보8분, 비용1,200원
+zone2 to zone0 총16분, 도보9분, 비용1,200원
+zone2 to zone1 총23분, 도보5분, 비용1,200원
+zone2 to zone2 동일경로
+
+zone0 to zone0 동일경로
+zone0 to zone0 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 결과없음 zone0 to zone2 총18분, 도보9분, 비용1,200원
+zone0 to zone3 총24분, 도보9분, 비용1,200원
+zone0 to zone4 총35분, 도보7분, 비용1,200원
+zone0 to zone5 총18분, 도보9분, 비용1,200원
+zone0 to zone6 총21분, 도보5분, 비용1,200원
+zone0 to zone7 총19분, 도보7분, 비용1,200원
+zone1 to zone0 총11분, 도보8분, 비용900원
+zone1 to zone1 동일경로
+zone1 to zone2 총19분, 도보10분, 비용1,200원
+zone1 to zone3 총25분, 도보10분, 비용1,200원
+zone1 to zone4 총30분, 도보16분, 비용1,250원
+zone1 to zone5 총13분, 도보7분, 비용1,200원
+zone1 to zone6 총17분, 도보13분, 비용1,250원
+zone1 to zone7 총18분, 도보7분, 비용1,200원
+zone2 to zone0 총20분, 도보7분, 비용1,200원
+zone2 to zone1 총21분, 도보5분, 비용1,200원
+zone2 to zone2 동일경로
+zone2 to zone3 총9분, 도보4분, 비용1,200원
+zone2 to zone4 총15분, 도보4분, 비용1,200원
+zone2 to zone5 총8분, 도보5분, 비용1,200원
+zone2 to zone6 총13분, 도보5분, 비용1,200원
+zone2 to zone7 총14분, 도보4분, 비용1,200원
+zone3 to zone0 총22분, 도보6분, 비용1,200원
+zone3 to zone1 총28분, 도보4분, 비용1,200원
+zone3 to zone2 총7분, 도보4분, 비용1,200원
+zone3 to zone3 동일경로
+zone3 to zone4 총11분, 도보4분, 비용1,200원
+zone3 to zone5 총15분, 도보7분, 비용1,200원
+zone3 to zone6 총20분, 도보7분, 비용1,200원
+zone3 to zone7 총23분, 도보6분, 비용1,200원
+zone4 to zone0 총32분, 도보7분, 비용1,200원
+zone4 to zone1 총41분, 도보5분, 비용1,200원
+zone4 to zone2 총16분, 도보4분, 비용1,200원
+zone4 to zone3 총11분, 도보3분, 비용1,200원
+zone4 to zone4 동일경로
+zone4 to zone5 총23분, 도보8분, 비용1,200원
+zone4 to zone6 총28분, 도보8분, 비용1,200원
+zone4 to zone7 총28분, 도보7분, 비용1,200원
+zone5 to zone0 총15분, 도보9분, 비용1,200원
+zone5 to zone1 총16분, 도보5분, 비용1,200원
+zone5 to zone2 총12분, 도보10분, 비용1,200원
+zone5 to zone3 총16분, 도보9분, 비용1,200원
+zone5 to zone4 총23분, 도보10분, 비용1,200원
+zone5 to zone5 동일경로
+zone5 to zone6 총8분, 도보5분, 비용1,200원
+zone5 to zone7 총9분, 도보4분, 비용1,200원
+zone6 to zone0 총27분, 도보11분, 비용1,200원
+zone6 to zone1 총17분, 도보13분, 비용1,250원
+zone6 to zone2 총16분, 도보11분, 비용1,250원
+zone6 to zone3 총22분, 도보11분, 비용1,250원
+zone6 to zone4 총30분, 도보6분, 비용1,200원
+zone6 to zone5 총13분, 도보11분, 비용1,250원
+zone6 to zone6 동일경로
+zone6 to zone7 총11분, 도보8분, 비용1,200원
+zone7 to zone0 총18분, 도보5분, 비용900원
+zone7 to zone1 총19분, 도보1분, 비용900원
+zone7 to zone2 총17분, 도보7분, 비용1,200원
+zone7 to zone3 총23분, 도보7분, 비용1,200원
+zone7 to zone4 결과없음 zone7 to zone5 총7분, 도보4분, 비용1,200원
+zone7 to zone6 총10분, 도보8분, 비용1,200원
+zone7 to zone7 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 결과없음
+zone0 to zone2 총22분, 도보9분, 비용1,200원
+zone1 to zone0 총10분, 도보8분, 비용900원
+zone1 to zone1 동일경로
+zone1 to zone2 총21분, 도보10분, 비용1,200원
+zone2 to zone0 총17분, 도보7분, 비용1,200원
+zone2 to zone1 총26분, 도보5분, 비용1,200원
+zone2 to zone2 동일경로

@@ -1,0 +1,18 @@
+zone0 to zone0 동일경로
+zone0 to zone1 총 10분, 도보 9분, 비용 900원
+zone0 to zone2 총 23분, 도보 7분, 비용 1,200원
+zone1 to zone0 총 10분, 도보 8분, 비용 900원
+zone1 to zone1 동일경로
+zone1 to zone2 총 19분, 도보 10분, 비용 1,200원
+zone2 to zone0 총 19분, 도보 7분, 비용 1,200원
+zone2 to zone1 총 21분, 도보 5분, 비용 1,200원
+zone2 to zone2 동일경로
+zone0 to zone0 동일경로
+zone0 to zone1 총 10분, 도보 9분, 비용 900원
+zone0 to zone2 총 22분, 도보 7분, 비용 1,200원
+zone1 to zone0 총 10분, 도보 8분, 비용 900원
+zone1 to zone1 동일경로
+zone1 to zone2 총 19분, 도보 10분, 비용 1,200원
+zone2 to zone0 총 19분, 도보 7분, 비용 1,200원
+zone2 to zone1 총 23분, 도보 5분, 비용 1,200원
+zone2 to zone2 동일경로
