@@ -148,6 +148,14 @@ while True:
     print("종료되었습니다.")
     break
 
+a = [1, 2]
+print("my name {}".format(a[1]))
+
+for i in a:
+    print(i)
+    print(a)
+
+
 array = [5, 1, 16, 583, 20, 15]
 for number in array:
     if number < 10:
