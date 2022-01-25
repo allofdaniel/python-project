@@ -8,9 +8,9 @@ import os
 import openpyxl
 
 options = webdriver.ChromeOptions()
-options.add_argument('headless')  # headless
-options.add_argument('window-size=1920x1080')  # headless
-options.add_argument("disable-gpu")  # headless
+# options.add_argument('headless')  # headless
+# options.add_argument('window-size=1920x1080')  # headless
+# options.add_argument("disable-gpu")  # headless
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options)
 wb = openpyxl.Workbook()
